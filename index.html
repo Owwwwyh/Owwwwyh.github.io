@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio showcasing my work and skills">
+    <title>My Portfolio | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preload" as="image" href="images/profile.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <a href="index.html" class="logo">Portfolio</a>
+            <nav class="nav" id="nav">
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 id="hero-heading" class="fade-in">Hi, I'm <span class="highlight">Ow Yee Hao</span></h1>
+                    <p class="fade-in">A passionate web developer creating modern, accessible websites</p>
+                    <div class="fade-in">
+                        <a href="projects.html" class="btn btn-primary">View My Work</a>
+                        <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/profile.jpg" alt="OWYEEHAO's profile picture" width="400" height="400" loading="lazy" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-projects" aria-labelledby="projects-heading">
+            <div class="container">
+                <h2 id="projects-heading" class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/project-placeholder1.jpg" alt="System Analysis Design Project" width="600" height="400" loading="lazy">
+                        </div>
+                        <div class="project-content">
+                            <h3>System Analysis & Design Project</h3>
+                            <p>A comprehensive academic project covering requirements gathering, system modeling, and database design for a complete software solution.</p>
+                            <div class="project-tags">
+                                <span class="tag">System Design</span>
+                                <span class="tag">Database</span>
+                                <span class="tag">Requirements</span>
+                            </div>
+                            <a href="projects.html#project1" class="btn btn-outline">View Details</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/project-placeholder2.jpg" alt="Technical and Information Security Assignments" width="600" height="400" loading="lazy">
+                        </div>
+                        <div class="project-content">
+                            <h3>Technical and Information Security</h3>
+                            <p>A collection of completed assignments covering various aspects of technical computing and information security principles.</p>
+                            <div class="project-tags">
+                                <span class="tag">Security</span>
+                                <span class="tag">Technical</span>
+                                <span class="tag">Assignments</span>
+                            </div>
+                            <a href="projects.html#project2" class="btn btn-outline">View Details</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="text-center">
+                    <a href="projects.html" class="btn btn-primary">View All Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section" aria-labelledby="cta-heading">
+            <div class="container">
+                <h2 id="cta-heading" class="section-title"><br>Ready to Connect?</h2>
+                <p class="section-subtitle">Feel free to reach out for collaborations or just to say hello!</p>
+                <div class="text-center">
+                    <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> My Portfolio. All rights reserved.</p>
+            <a href="#header" class="back-to-top" aria-label="Back to top">
+                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+    <script src="js/animations.js" defer></script>
+</body>
+</html>

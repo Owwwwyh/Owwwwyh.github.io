@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My portfolio projects showcasing my work">
+    <title>My Portfolio | Projects</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <a href="index.html" class="logo">Portfolio</a>
+            <nav class="nav" id="nav">
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="projects.html" class="nav-link active">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="projects-hero" aria-labelledby="projects-heading">
+            <div class="container">
+                <h1 id="projects-heading" class="fade-in">My Projects</h1>
+                <p class="fade-in">A showcase of my recent work</p>
+            </div>
+        </section>
+
+        <section class="projects-content" aria-labelledby="featured-heading">
+            <div class="container">
+                <h2 id="featured-heading" class="section-title">My Projects</h2>
+                <p class="section-subtitle">Here are my completed academic projects showcasing my software development skills.</p>
+            </div>
+            
+            <div class="container">
+                <article class="project-detail" id="project1">
+                    <div class="project-detail-grid">
+                      <div class="project-detail-images">
+                        <div class="main-image">
+                          <img src="images/project-placeholder1.jpg" alt="System Analysis Design Project" width="800" height="500" loading="lazy">
+                        </div>
+                      </div>
+                      <div class="project-detail-content">
+                        <h3>System Analysis & Design Project</h3>
+                        <div class="project-meta">
+                          <span class="date">2023-2024</span>
+                          <span class="client">Academic Project</span>
+                        </div>
+                        <p>A comprehensive System Analysis and Design project covering requirements gathering, system modeling, and database design for a complete software solution.</p>
+                        <h4>Key Components:</h4>
+                        <ul class="feature-list">
+                          <li>Use case diagrams and specifications</li>
+                          <li>Entity-Relationship diagrams</li>
+                          <li>System architecture design</li>
+                          <li>User interface prototypes</li>
+                        </ul>
+                        <div class="project-tags">
+                          <span class="tag">System Design</span>
+                          <span class="tag">Database</span>
+                          <span class="tag">Requirements</span>
+                        </div>
+                        <div class="project-links">
+                          <a href="https://github.com/Owwwwyh/-Project1_SAD_20232024" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  
+                  <article class="project-detail" id="project2">
+                    <div class="project-detail-grid">
+                      <div class="project-detail-images">
+                        <div class="main-image">
+                          <img src="images/project-placeholder2.jpg" alt="Technical Information Security Assignments" width="800" height="500" loading="lazy">
+                        </div>
+                      </div>
+                      <div class="project-detail-content">
+                        <h3>Technical and Information Security Assignments</h3>
+                        <div class="project-meta">
+                          <span class="date">2023</span>
+                          <span class="client">Academic Project</span>
+                        </div>
+                        <p>A collection of completed assignments covering various aspects of technical computing and information security principles and practices.</p>
+                        <h4>Covered Topics:</h4>
+                        <ul class="feature-list">
+                          <li>Information security fundamentals</li>
+                          <li>Technical problem solving</li>
+                          <li>Secure system implementations</li>
+                          <li>Security policy analysis</li>
+                        </ul>
+                        <div class="project-tags">
+                          <span class="tag">Security</span>
+                          <span class="tag">Technical</span>
+                          <span class="tag">Assignments</span>
+                        </div>
+                        <div class="project-links">
+                          <a href="https://github.com/Owwwwyh/TIS-ALL-ASSIGNMENT" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> My Portfolio. All rights reserved.</p>
+            <a href="#header" class="back-to-top" aria-label="Back to top">
+                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+    <script src="js/animations.js" defer></script>
+</body>
+</html>
